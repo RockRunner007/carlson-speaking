@@ -59,18 +59,15 @@ jobs:
           
           ## Quick Start
           
-          - [[Spec Integration|Integration/tickets]]
-          - [[Tickets from Tasks|Integration/tickets]]
-          - [[Knowledge Base Options|Integration/knowledge-base]]
-          - [[Diagram Management|Integration/diagrams]]
+          - [[Spec Integration Guide|Integration/tickets]]
+          - [[Content Planning|Integration/tickets]]
+          - [[Knowledge Base|Integration/knowledge-base]]
           
           ## Specifications
           
           ### Example Specs
           
-          - [[Authentication|specs/001-example/Specification]]
-          - [[Notifications|specs/002-notifications/Specification]]
-          - [[User Profile|specs/003-user-profile/Specification]]
+          - [[Speaking Template|specs/001-example/Specification]]
           
           ## See Also
           

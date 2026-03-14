@@ -57,7 +57,6 @@ Looking forward to working with you!
 - [ ] Show office/workspace
 - [ ] Introduce team members
 
-### 10:00 AM - Technical Onboarding Starts
 ### 10:00 AM - Contributor Onboarding Starts
 
 **Step 1: Clone repository**
@@ -81,7 +80,6 @@ Walk through:
 
 Go to lunch with team, buddy, or solo depending on preference.
 
-### 1:00 PM - Development Workflow
 ### 1:00 PM - Contribution Workflow
 
 Teach:
@@ -97,7 +95,6 @@ Teach:
 - [ ] Write self-introduction (3 sentences)
 - [ ] Create PR, get review, merge
 
-### 2:00 PM - Spec-Driven Development
 ### 2:00 PM - Specification-Driven Content
 
 Intro to SDD methodology:
