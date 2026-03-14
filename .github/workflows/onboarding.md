@@ -38,9 +38,9 @@ DAYS 2-5:
 - Team meetings and rituals
 
 RESOURCES:
-- [README.md](../../README.md)
-- [Spec-Driven Development](../specs/readme.md)
-- [Contributing Guidelines](../CONTRIBUTING.md)
+- [README.md](https://github.com/stevencarlson/carlson-speaking/blob/main/README.md)
+- [Spec-Driven Development](https://github.com/stevencarlson/carlson-speaking/blob/main/specs/README.md)
+- [Contributing Guidelines](https://github.com/stevencarlson/carlson-speaking/blob/main/CONTRIBUTING.md)
 - [Slack Channel](https://slack.com/...)
 
 Your buddy: @bob - he'll be your go-to person for questions
@@ -293,9 +293,9 @@ New person drives, mentor helps
 Provide links to:
 
 - [ ] Company wiki/handbook
-- [ ] Architecture documentation
-- [ ] API documentation
-- [ ] Infrastructure guides
+- [ ] Content Strategy
+- [ ] Persona Guides
+- [ ] Publishing Process
 - [ ] Security policies
 - [ ] Helpful Slack channels
 
@@ -320,9 +320,9 @@ Provide links to:
 **First week:**
 
 - [ ] Check in daily (quick chat)
-- [ ] Validate they can run tests
+- [ ] Validate they can preview content
 - [ ] Review first PR
-- [ ] Pair program if possible
+- [ ] Paired writing session if possible
 - [ ] Connect to other team members
 
 **Month 1:**
@@ -343,8 +343,8 @@ Provide links to:
 
 Before becoming a buddy, train on:
 
-- [ ] How to explain the codebase
-- [ ] Teaching vs doing
+- [ ] How to explain the guidance structure
+- [ ] How to give constructive writing feedback
 - [ ] Patience and empathy
 - [ ] How to answer questions
 - [ ] When to escalate
@@ -353,22 +353,22 @@ Before becoming a buddy, train on:
 
 ### First Week
 
-- New person can run app and tests ✅
+- New person can build/preview docs ✅
 - Completed first PR ✅
 - Comfortable asking questions ✅
 - Attended meetings ✅
 
 ### Month 1
 
-- Shipped feature or multiple bugs ✅
-- Understands codebase ✅
+- Shipped guidance or improvements ✅
+- Understands the content structure ✅
 - Active participant ✅
 - Knows who to ask ✅
 
 ### Month 3
 
 - Productive on own ✅
-- Quality contributions ✅
+- High-quality contributions ✅
 - Integrated with team ✅
 - Considering improvements ✅
 
@@ -437,7 +437,7 @@ Create file: `docs/team/[name].md`
 
 ## References
 
-- [First-Time Setup](first-time-setup.md)
-- [Contributing Guidelines](../../CONTRIBUTING.md)
-- [Spec-Driven Development](../../specs/readme.md)
-- [Code Review Standards](code-review-standards.md)
+- [Getting Started](https://github.com/stevencarlson/carlson-speaking/blob/main/README.md)
+- [Contributing Guidelines](https://github.com/stevencarlson/carlson-speaking/blob/main/CONTRIBUTING.md)
+- [Spec-Driven Development](https://github.com/stevencarlson/carlson-speaking/blob/main/specs/README.md)
+- [Code Review Standards](https://github.com/stevencarlson/carlson-speaking/blob/main/docs/governance/code-review-standards.md)

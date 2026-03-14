@@ -12,7 +12,7 @@ Thanks for considering contributions to this guidance collection. A few guidelin
 - For AI-assisted contributions, add a short note in PR body with:
   - `AI agent used:` e.g., Claude, Copilot, Gemini
   - `Prompt summary:` high-level description of what was asked
-  - `Commands run:` e.g., `npm test`, `npm run lint`, `gh pr checks`
+  - `Commands run:` e.g., `gh pr checks`
 
 ## Review Process
 
