@@ -8,8 +8,6 @@ How to get new team members productive quickly.
 
 - [ ] Create GitHub account & add to team
 - [ ] Set up Slack account
-- [ ] Provision laptop (if applicable)
-- [ ] Create database credentials
 - [ ] Add to calendar invites (standups, planning)
 - [ ] Assign onboarding buddy
 - [ ] Create welcome document
@@ -61,36 +59,17 @@ Looking forward to working with you!
 
 ### 10:00 AM - Technical Onboarding Starts
 
-**Step 1: Clone repository**
+**Step 1: Clone repository and verify access**
 
-```bash
-git clone https://github.com/RockRunner007/template.git
-cd template
-```
+**Step 2: Review Guidance Standards**
+- Read `docs/governance/code-review-standards.md`
+- Review the `specs/` directory to understand the content structure.
 
-**Step 2: Follow setup guide**
-
-- Have them follow [First-Time Setup](first-time-setup.md)
-- Buddy available for questions
-- Target: App running locally by lunch
-
-**Step 3: Verify everything works**
-
-```bash
-npm test              # All tests pass
-npm run dev          # App starts
-redis-cli ping       # Redis running
-psql -d template_dev # Database works
-```
-
-### 11:00 AM - Codebase Tour
+### 11:00 AM - Guidance Tour
 
 Walk through:
-
-- Project structure (`src/`, `tst/`, `docs/`, `specs/`)
-- Key files (main entry point, configuration)
-- How to run tests and linting
-- Current specs and what's being worked on
+- Project structure (`docs/`, `specs/`, `prompts/`)
+- How to propose new speaking guidance topics.
 
 ### 12:00 PM - Lunch
 

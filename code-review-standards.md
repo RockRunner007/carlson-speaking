@@ -1,109 +1,44 @@
-# Code Review Standards
+# Guidance Review Standards
 
-Guidelines for reviewing specifications, code, and pull requests.
+Guidelines for reviewing speaking guidance specifications and markdown content.
 
 ## Review Objectives
 
-1. **Correctness** - Does it solve the problem?
-2. **Quality** - Is the code/spec well-written?
-3. **Security** - Are there security vulnerabilities?
-4. **Performance** - Will this scale?
-5. **Maintainability** - Can others understand it?
+1. **Accuracy** - Is the guidance factually and logically correct?
+2. **Tone** - Is the communication style appropriate for the persona?
+3. **Clarity** - Is the guidance easy to follow?
+4. **Maintainability** - Is the markdown structure consistent?
 
 ## Reviewing Specifications
 
 ### Specification Review Checklist
 
-- [ ] **User Stories Clear** - Can a developer understand what to build?
+- [ ] **User Stories Clear** - Is the objective of the speaking guidance clear?
 - [ ] **Acceptance Criteria Testable** - Can QA verify these?
-- [ ] **Edge Cases Documented** - What about error scenarios?
-- [ ] **Non-Functional Requirements** - Performance, security, scale requirements defined?
 - [ ] **Dependencies Listed** - What does this depend on?
-- [ ] **Ambiguities Marked** - Use `[NEEDS CLARIFICATION: question]`
-- [ ] **Architecture Sound** - Will this work with current systems?
-- [ ] **Backwards Compatibility** - Breaking changes documented?
 
 ### Example Spec Review Comment
 
 ```text
-## Issue: Acceptance Criteria Not Testable
+## Issue: Objective Not Actionable
 
 **Spec:**
-> "The login should be fast"
+> "The guidance should be helpful."
 
-**Problem:** "Fast" is subjective. QA can't test this.
+**Problem:** "Helpful" is subjective.
 
 **Suggestion:**
-> "The login response time must be < 200ms (p95)"
-
-This is measurable and testable. We can automate this check.
-```
-
-## Reviewing Code
-
-### Code Review Checklist
-
-**Before approving, verify:**
-
-- [ ] **Spec Implemented** - All acceptance criteria met?
-- [ ] **Tests Included** - Unit tests, integration tests?
-- [ ] **Test Coverage** - Minimum 80%?
-- [ ] **No Secrets** - Hardcoded passwords, API keys?
-- [ ] **Error Handling** - All error paths handled?
-- [ ] **Validation** - Input validated?
-- [ ] **Documentation** - Complex logic commented?
-- [ ] **Performance** - Not O(n²) or worse?
-- [ ] **Security** - No SQL injection, XSS, CSRF?
-- [ ] **Logging** - Sufficient for debugging?
-- [ ] **Backwards Compatible** - Or documented breaking change?
-
-### Example Code Review Comments
-
-**Good Comment (Constructive):**
-
-```text
-## Performance Concern
-
-The nested loop here is O(n²). With 10,000 users, this could be slow.
-
-Suggestion: Use a Set for O(1) lookup
-
-Before:
-for (const user of users) {
-  if (excludedUsers.includes(user.id)) {
-    // ...
-  }
-}
-
-After:
-const excluded = new Set(excludedUsers.map(u => u.id));
-for (const user of users) {
-  if (excluded.has(user.id)) {
-    // ...
-  }
-}
-```
-
-**Bad Comment (Unhelpful):**
-
-```text
-This is inefficient
+> "Provide three specific phrases to de-escalate a confrontation with the 'Irrational' persona."
 ```
 
 ### Approval Requirements
 
 **Minimum reviewers:**
 
-- Feature code: 2 approvals
-- Security-critical: 2 + security lead
-- Infrastructure: 2 + DevOps lead
-- Documentation: 1
+- Content: 1 approval
+- Governance/Process: 2 approvals
 
 **Automatic failures:**
-
-- [ ] Security scan failed
-- [ ] Tests not passing
-- [ ] Code coverage below 80%
 - [ ] Linting errors
 
 ## Reviewing Pull Requests

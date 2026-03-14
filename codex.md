@@ -6,5 +6,4 @@ See `AGENTS.md` for full repository guidance.
 
 ## Quick instructions
 - Follow `AGENTS.md` for requirements.
-- Provide minimal and safe code changes.
-- Mention tests and workflow commands.
+- Provide clear and safe markdown updates.

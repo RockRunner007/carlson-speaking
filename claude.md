@@ -6,5 +6,5 @@ See `AGENTS.md` for full repository guidance.
 
 ## Quick instructions
 1. Use instructions from `AGENTS.md`.
-2. Prefer minimal changes and code diffs.
+2. Focus on clear, concise markdown updates.
 3. Use `gh` for GitHub operations when needed (create PRs, check status).

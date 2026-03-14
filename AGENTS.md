@@ -3,30 +3,20 @@
 This repository uses AGENTS.md as the canonical agent guide according to https://agents.md/
 
 ## Purpose
-- Provide project-specific agent instructions in a machine-readable human-friendly markdown.
+- Provide instructions for AI agents assisting with speaking guidance and markdown content.
 - Exactly one `AGENTS.md` in repo root, with optional nested AGENTS.md in subtrees (not required here).
-- Include setup, test, code style, and workflow rules.
+- Include content style and workflow rules for documentation.
 
 ## Project context
-- Repository: `RockRunner007/template`
-- Description: secure spec-driven template for internal service projects.
+- Description: A structured markdown collection for providing guidance for speaking.
 - Branch policy: direct push to `main` is blocked; all code changes must go through Pull Request and required checks. Use branch naming pattern `scarlson/{feature}` for this workflow.
 
-## Build & test
-- `npm install` (or chosen language-specific install)
-- `npm test` or `./scripts/test` (adjust for your stack)
-- CI workflows:
-  - `.github/workflows/test-and-build.yml`
-  - `.github/workflows/codeql-analysis.yml`
-  - `.github/workflows/dependency-update.yml`
-  - `.github/workflows/security-scan.yml`
-
-## Code style
-- Maintain existing repository conventions and lints.
-- Prefer small patches and explicit file path references.
+## Content Style
+- Maintain clear, professional, and persona-driven prose.
+- Use standard Markdown formatting.
 
 ## Governance
-- New features require spec docs under `specs/`.
+- New guidance topics require docs under `specs/`.
 - Create issues with `.github/ISSUE_TEMPLATE` templates.
 - Use `.github/pull_request_template.md` for PR metadata.
 
@@ -40,6 +30,6 @@ This repository uses AGENTS.md as the canonical agent guide according to https:/
 - `claude.md`, `cursor.md`, `codex.md`, `pilot.md` are model-specific entry points that refer to this file.
 
 ## QA & final run
-- Run `npm test` (or equivalent) until all checks pass.
-- Open a PR with summary, testing details, and compliance to security/code policy.
+- Ensure all markdown links are valid.
+- Open a PR with a summary of the guidance added and the intended audience/persona.
 - Ensure `.github/ISSUE_TEMPLATE` and `README` badges are present.

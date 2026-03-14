@@ -1,63 +1,33 @@
-# Template — Secure Project Blueprint
+# Carlson Speaking — Guidance Collection
 
-![Build](https://github.com/RockRunner007/template/actions/workflows/test-and-build.yml/badge.svg)
-![CodeQL](https://github.com/RockRunner007/template/actions/workflows/codeql-analysis.yml/badge.svg)
-![Dependabot](https://img.shields.io/badge/dependabot-enabled-blue.svg)
-![License](https://img.shields.io/github/license/RockRunner007/template)
+A comprehensive markdown collection for providing guidance for speaking, featuring:
 
-> GitHub Community Health: 100% (description, documentation, code of conduct, contributing guidelines, PR template, license, README)
-
-A comprehensive project template for building production-ready services with:
-
-- **Specification-Driven Development** integration with example specs
-- **Comprehensive documentation** covering entire software development lifecycle
-- **Security-first CI/CD** with automated scanning and best practices
-- **Team governance** with clear processes and standards
-- **Testing strategy** with pyramid approach and security/performance testing
-- **Infrastructure guides** with deployment, scaling, and disaster recovery
-- **Repository analyzer** tool to check compliance with best practices
-
-## Why this repo
-
-- Provides a consistent project layout so teams can start small and scale safely.
-- Includes spec-driven development methodology with real examples and templates.
-- Full documentation ecosystem covering feature lifecycle, releases, testing, governance, and operations.
-- Includes placeholders for security scans, runbooks, and automation so security becomes part of the workflow.
-- Includes a repository compliance analyzer to evaluate any project against these standards.
+- **Specification-Driven Content** — Structured templates for speaking topics.
+- **Persona-Based Communication** — Tailored guidance for various stakeholder types.
+- **Governance Standards** — Guidelines for reviewing and maintaining high-quality prose.
+- **Operational Runbooks** — Processes for managing and releasing new guidance.
 
 ## Directory Structure
 
 ### Core Directories
 
-- `src/` — source code
-- `tst/` — unit, integration, and security-focused tests
 - `specs/` — specifications for features (specification-driven development)
-- `example/` — example implementations and demonstrations
 
 ### Documentation
 
-- `docs/` — comprehensive documentation covering entire SDLC
-  - `docs/lifecycle/` — feature, release, and deprecation processes
-  - `docs/governance/` — code review, change management, onboarding, dependencies
-  - `docs/testing/` — testing pyramid, security testing, performance testing
-  - `docs/infrastructure-overview.md` — architecture and infrastructure guide
-  - `docs/environment-strategy.md` — dev/staging/prod environment management
-  - `docs/runbooks/` — operational runbooks (deploy, rollback, incident response, monitoring)
-  - `docs/tools/` — tools documentation (repository analyzer, AI integration)
+- `docs/` — comprehensive guidance documentation
+  - `docs/lifecycle/` — guidance release and maintenance processes
+  - `docs/governance/` — content standards and onboarding
+  - `docs/runbooks/` — operational runbooks (publishing)
 
 ### Configuration & Operations
 
 - `_static/` — diagrams, threat models, deployment documentation
-- `infrastructure/` — IaC (Terraform, etc.) and security policies
 - `prompts/` — AI prompts and project context for automated helpers
-- `artifacts/` — build outputs, scan results, coverage reports
-- `scripts/` — utility scripts (repository analyzer, etc.)
 
 ### Project Governance
 
 - `codeowners` / `.github/CODEOWNERS` — ownership hints
-- `.github/workflows/` — CI and security workflows (template-ready)
-- `.github/dependabot.yml` — dependency automation configuration
 - `.github/ai-guidance.md` — AI contributor quick-start guidance
 
 ### AI support files
@@ -138,12 +108,6 @@ See [Repository Analyzer Guide](docs/tools/QUICK-START.md) for details.
 - Penetration testing and DAST guidance included
 
 ### 🤖 AI Integration Ready
-
-- Repository analyzer produces JSON for AI processing
-- Examples for Claude, ChatGPT, and other LLMs
-- Automated issue creation from recommendations
-- CI/CD integration patterns
-- Batch processing multiple repositories
 
 ## Specification-Driven Development
 
