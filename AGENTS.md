@@ -20,6 +20,26 @@ This repository uses AGENTS.md as the canonical agent guide according to https:/
 - Create issues with `.github/ISSUE_TEMPLATE` templates.
 - Use `.github/pull_request_template.md` for PR metadata.
 
+## Skills
+- Reusable system prompts and skills are located in `prompts/skills/`.
+- `prompts/skills/toastmasters-coach.md`: Provides coaching on presentation principles.
+- `prompts/skills/persona-simulator.md`: Allows role-playing as defined personas for communication practice.
+- `prompts/skills/filler-word-counter.md`: Analyzes transcripts for filler words like "um" and "ah".
+- `prompts/skills/glance-test-evaluator.md`: Evaluates presentation slides for visual clarity and simplicity.
+- `prompts/skills/accessibility-checker.md`: Checks presentations for inclusive design and WCAG compliance.
+- `prompts/skills/elevator-pitch-crafter.md`: Helps distill a presentation into a 30-second summary.
+- `prompts/skills/narrative-arc-builder.md`: Helps structure a presentation as a compelling story.
+- `prompts/skills/post-presentation-follow-up.md`: Helps draft follow-up emails after a presentation.
+- `prompts/skills/contingency-planner.md`: Helps prepare for technology failures during a presentation.
+- `prompts/skills/speaking-anxiety-coach.md`: Helps manage pre-presentation nervousness.
+- `prompts/skills/data-storytelling-assistant.md`: Helps transform raw data into compelling visual stories.
+- `prompts/skills/q-and-a-strategist.md`: Helps predict questions and formulate strategic answers.
+- `prompts/skills/remote-delivery-coach.md`: Provides a pre-flight checklist for virtual presentations.
+- `prompts/skills/stage-choreographer.md`: Provides stage directions for in-person presentations.
+- `prompts/skills/vocal-variety-coach.md`: Annotates scripts with cues for pace, pitch, and volume.
+- Agents should check this directory for specialized capabilities (e.g., coaching, reviewing).
+- When adopting a skill, adhere strictly to the rules defined in that skill file.
+
 ## How agents should use these files
 - The closest `AGENTS.md` in the path wins.
 - If a subdirectory has custom guidance, that file applies to edits in that subtree.
