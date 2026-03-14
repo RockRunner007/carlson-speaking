@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "GitHub Discussions"
+    url: "https://github.com/RockRunner007/template/discussions"
+    about: "Use discussions for general questions and proposal conversations."
+  - name: "Issue templates"
+    url: "https://github.com/RockRunner007/template/issues/new/choose"
+    about: "Choose a template for bug reports or feature requests."

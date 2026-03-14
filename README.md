@@ -5,6 +5,8 @@
 ![Dependabot](https://img.shields.io/badge/dependabot-enabled-blue.svg)
 ![License](https://img.shields.io/github/license/RockRunner007/template)
 
+> GitHub Community Health: 100% (description, documentation, code of conduct, contributing guidelines, PR template, license, README)
+
 A comprehensive project template for building production-ready services with:
 
 - **Specification-Driven Development** integration with example specs
