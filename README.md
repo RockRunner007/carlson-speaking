@@ -1,12 +1,18 @@
-# Carlson Speaking — Guidance Collection
+# Carlson Speaking — Presentation Guidance
 
-A comprehensive markdown collection for providing guidance for speaking, featuring specification-driven content and persona-based communication strategies.
+A repository for creating and refining presentations on security, work programs, and learning opportunities, using principles from Toastmasters.
 
 ## Features
 
-- **Specification-Driven Content** — Structured templates for speaking topics in `specs/`.
+- **Presentation Templates** — Structured templates in `specs/` for building effective presentations on topics like security awareness or program updates.
 - **Persona-Based Communication** — Tailored guidance for various stakeholder types in `docs/personas/`.
 - **Governance Standards** — Guidelines for reviewing and maintaining high-quality prose in `docs/governance/`.
+- **Toastmasters Principles** — Core public speaking concepts adapted for technical and corporate presentations.
+
+## Core Topics
+- Security Information Briefings
+- Work Program Overviews
+- Hosting Learning Opportunities
 
 ## Getting Started
 
