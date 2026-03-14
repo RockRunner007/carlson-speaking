@@ -62,7 +62,7 @@ Check that PR description includes:
 - [ ] Security scan clean
 - [ ] No conflicts with main
 
--### Step 3: Peer Review
+### Step 3: Peer Review
 
 - [ ] 1st reviewer reviews and comments
 - [ ] 2nd reviewer reviews and approves
