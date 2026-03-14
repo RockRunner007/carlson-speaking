@@ -1,0 +1,14 @@
+# Ensure consistent line endings and text diff behavior
+* text=auto
+*.md text
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Treat generated files as binary to avoid noisy diffs
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.tar.gz binary

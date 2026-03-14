@@ -58,6 +58,17 @@ A comprehensive project template for building production-ready services with:
 - `codeowners` / `.github/CODEOWNERS` — ownership hints
 - `.github/workflows/` — CI and security workflows (template-ready)
 - `.github/dependabot.yml` — dependency automation configuration
+- `.github/ai-guidance.md` — AI contributor quick-start guidance
+
+### AI support files
+
+- `AGENTS.md` — official agent instruction file (required)
+- `claude.md`, `codex.md`, `cursor.md`, `pilot.md` — lightweight agent entrypoints
+- `.gitattributes` — consistent line endings and diffs
+- `.cursorignore` — Cursor editor ignore list
+- `.aider.conf.yml` — Aider integration config
+- `.gemini/settings.json` — Gemini CLI integration config
+
 - `docs/personas/` — stakeholder personas for guidance and communication
 
 ## Tech Stack

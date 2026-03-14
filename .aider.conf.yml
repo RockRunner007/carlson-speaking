@@ -1,0 +1,7 @@
+read: AGENTS.md
+write: AGENTS.md
+ignore:
+  - .git
+  - node_modules
+  - .vscode
+  - .cursorignore
