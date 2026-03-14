@@ -94,7 +94,6 @@ None - Only affects invalid (concurrent) requests
 
 - [ ] Linting passes
 - [ ] Tests pass
-- [ ] Code coverage > 80%
 - [ ] Security scan clean
 - [ ] No conflicts with main
 
@@ -139,15 +138,6 @@ None - Only affects invalid (concurrent) requests
 - Accuracy - Is information correct?
 - Completeness - Are all edge cases covered?
 - Examples - Do examples work as shown?
-
-### Dependency Update
-
-**Focus on:**
-
-- Security - Fixing known vulnerability?
-- Breaking changes - Does it break our code?
-- Performance - Improvement or regression?
-- Compatibility - Supports our Node/Python version?
 
 ## Difficult Reviews
 
@@ -208,12 +198,9 @@ See: [OWASP SQL Injection](link)
 
 **Block approval if:**
 
-- No tests (unless documentation)
-- Test coverage below 80%
 - Hardcoded secrets/credentials
 - Security vulnerability
-- Database changes without migration
-- Breaks existing tests
+- Breaks existing links/structure
 - No spec/issue linked
 
 **Request changes if:**

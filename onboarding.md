@@ -38,9 +38,9 @@ DAYS 2-5:
 - Team meetings and rituals
 
 RESOURCES:
-- [Getting Started Guide](../docs/runbooks/first-time-setup.md)
-- [Spec-Driven Development](../specs/readme.md)
-- [Contributing Guidelines](../CONTRIBUTING.md)
+- [Getting Started Guide](README.md)
+- [Spec-Driven Development](specs/README.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
 - [Slack Channel](https://slack.com/...)
 
 Your buddy: @bob - he'll be your go-to person for questions
@@ -252,13 +252,13 @@ Task: Draft a small piece of guidance together
 Buddy writes, new person contributes ideas and edits
 ```
 
-**Week 2:** Co-implement feature
+**Week 2:** Co-author document
 
 ```text
 Pair with: @alice
 Duration: 2 hours
-Task: Work on medium feature
-Take turns driving
+Task: Work on medium guidance document
+Take turns writing and editing
 ```
 
 **Month 1:** Mentor mode

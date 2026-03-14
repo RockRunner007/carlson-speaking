@@ -252,13 +252,13 @@ Task: Draft a small piece of guidance together
 Buddy writes, new person contributes ideas and edits
 ```
 
-**Week 2:** Co-implement feature
+**Week 2:** Co-author document
 
 ```text
 Pair with: @alice
 Duration: 2 hours
-Task: Work on medium feature
-Take turns driving
+Task: Work on medium guidance document
+Take turns writing and editing
 ```
 
 **Month 1:** Mentor mode
