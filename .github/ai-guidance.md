@@ -13,18 +13,7 @@ This file complements `AGENTS.md` with quick, actionable pointers for AI-powered
    - Do not push directly to `main`.
    - Create PRs from feature branches.
 
-## Testing commands
-- `npm install`
-- `npm test`
-- `npm run lint`
-
 ## Optional tools
 - For Cursor: use `.cursorignore`
 - For Aider: use `.aider.conf.yml`
 - For Gemini: use `.gemini/settings.json`
-
-## CI checks
-- `test-and-build` workflow
-- `codeql-analysis` workflow
-- `dependency-update` workflow
-- `security-scan` workflow

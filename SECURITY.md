@@ -5,7 +5,7 @@ Thank you for helping keep this project and its users safe. If you believe you'v
 ## Responsible disclosure
 
 - Do not create a public issue for security vulnerabilities. Instead, contact the maintainers privately.
-- Email: security@your-org.example (update with your organization's security contact) or open a private GitHub Security Advisory if available.
+- The best method is to report a vulnerability privately. This allows us to coordinate a response and fix.
 - Provide clear reproduction steps, affected versions, impact summary, and suggested mitigations.
 
 ## Response

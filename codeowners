@@ -1,10 +1,3 @@
 # Global owners
 
-* @owner1 @owner2
-
-<!-- # Team-specific paths -->
-/docs/ @docs-team
-/src/backend/ @backend-team
-/src/frontend/ @frontend-team
-/tests/ @qa-team
-/.github/ @devops-team
+* @stevencarlson

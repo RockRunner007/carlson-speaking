@@ -18,7 +18,7 @@ Start with our documentation:
 
 Found a bug or have a feature request?
 
-1. **Before opening an issue:** Check if the issue already exists by searching our [GitHub Issues](https://github.com/RockRunner007/template/issues)
+1. **Before opening an issue:** Check if the issue already exists by searching our [GitHub Issues](https://github.com/stevencarlson/carlson-speaking/issues)
 2. **Create a new issue** with:
    - Clear title describing the problem or feature
    - Description with context and steps to reproduce (for bugs)
@@ -29,7 +29,7 @@ Found a bug or have a feature request?
 
 For questions, ideas, or general discussions:
 
-- Use [GitHub Discussions](https://github.com/RockRunner007/template/discussions)
+- Use [GitHub Discussions](https://github.com/stevencarlson/carlson-speaking/discussions)
 - This is a great place for brainstorming and community support
 
 ### Contacting Maintainers

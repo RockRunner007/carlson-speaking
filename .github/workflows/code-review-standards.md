@@ -1,17 +1,18 @@
 # Guidance Review Standards
 
-Guidelines for reviewing speaking guidance specifications and markdown content.
+Guidelines for reviewing speaking guidance, specifications, and other markdown content.
 
 ## Review Objectives
 
 1. **Accuracy** - Is the guidance factually and logically correct?
-2. **Tone** - Is the communication style appropriate for the persona?
-3. **Clarity** - Is the guidance easy to follow?
-4. **Maintainability** - Is the markdown structure consistent?
+2. **Clarity** - Is the guidance easy to understand and follow? Is the language simple and direct?
+3. **Tone** - Is the communication style appropriate for the intended audience and persona?
+4. **Structure** - Is the document well-organized with clear headings and logical flow?
+5. **Consistency** - Does the guidance align with existing content and project standards?
 
-## Reviewing Specifications
+## Reviewing Guidance & Specifications
 
-### Specification Review Checklist
+### Content Review Checklist
 
 - [ ] **User Stories Clear** - Is the objective of the speaking guidance clear?
 - [ ] **Acceptance Criteria Testable** - Can QA verify these?
@@ -20,15 +21,15 @@ Guidelines for reviewing speaking guidance specifications and markdown content.
 ### Example Spec Review Comment
 
 ```text
-## Issue: Objective Not Actionable
+## Issue: Tone is not aligned with persona
 
-**Spec:**
-> "The guidance should be helpful."
+**Guidance:**
+> "Just tell the executive the project is delayed."
 
-**Problem:** "Helpful" is subjective.
+**Problem:** This tone is too blunt for the 'Boss' persona. It lacks context and reassurance.
 
 **Suggestion:**
-> "Provide three specific phrases to de-escalate a confrontation with the 'Irrational' persona."
+> "Let's rephrase this for the 'Boss' persona. Consider: 'We need to proactively inform the executive about a revised timeline, highlighting the risk mitigation and the new expected delivery date.'"
 ```
 
 ### Approval Requirements

@@ -1,6 +1,6 @@
 # Team Onboarding
 
-How to get new team members productive quickly.
+How to get new contributors productive quickly.
 
 ## Pre-Arrival (1 week before)
 
@@ -27,14 +27,14 @@ Here's what to expect during your first week:
 
 DAY 1:
 - Meet the team (10:00 AM call)
-- Setup development environment
-- Tour of codebase
+- Get familiar with the repository structure
+- Tour of the guidance collection
 - Q&A with your buddy
 
 DAYS 2-5:
-- Spec-driven development training
-- Code review participation
-- Small bug fix or documentation task
+- Specification-driven content training
+- Guidance review participation
+- Small documentation improvement task
 - Team meetings and rituals
 
 RESOURCES:
@@ -58,12 +58,13 @@ Looking forward to working with you!
 - [ ] Introduce team members
 
 ### 10:00 AM - Technical Onboarding Starts
+### 10:00 AM - Contributor Onboarding Starts
 
 **Step 1: Clone repository**
 
 ```bash
-git clone https://github.com/RockRunner007/template.git
-cd template
+git clone https://github.com/stevencarlson/carlson-speaking.git
+cd carlson-speaking
 ```
 
 **Step 2: Review Content Standards**
@@ -81,14 +82,14 @@ Walk through:
 Go to lunch with team, buddy, or solo depending on preference.
 
 ### 1:00 PM - Development Workflow
+### 1:00 PM - Contribution Workflow
 
 Teach:
 
 - [ ] Git workflow (main → feature branch → PR)
 - [ ] How to make a commit
 - [ ] How to create and push a PR
-- [ ] Code review process
-- [ ] Linting and testing
+- [ ] Guidance review process
 
 **Hands-on:** First commit
 
@@ -97,13 +98,13 @@ Teach:
 - [ ] Create PR, get review, merge
 
 ### 2:00 PM - Spec-Driven Development
+### 2:00 PM - Specification-Driven Content
 
 Intro to SDD methodology:
 
 - [ ] How specs are structured
 - [ ] How to read a spec
-- [ ] Connection between spec and code
-- [ ] Where tasks come from
+- [ ] Connection between a spec and the final guidance document
 
 Example: Walk through `specs/001-example/`
 
@@ -112,32 +113,25 @@ Example: Walk through `specs/001-example/`
 Explain:
 
 - [ ] Daily standup (who, when, what)
-- [ ] Sprint planning
-- [ ] Code review culture
-- [ ] Pair programming (optional)
+- [ ] Content planning
+- [ ] Guidance review culture
+- [ ] Paired writing (optional)
 - [ ] How to ask for help
 
 ### 4:00 PM - First Assignment
 
 Pick one small task:
 
-**Option 1: Documentation**
+**Option 1: Improve Existing Guidance**
 
-- [ ] Improve a runbook
-- [ ] Add to troubleshooting guide
-- [ ] Update example code
+- [ ] Find a page with a typo or unclear sentence and fix it.
+- [ ] Add an example to an existing piece of guidance.
 
-**Option 2: Bug Fix**
+**Option 2: Draft New Content**
 
-- [ ] Pick small bug from backlog
-- [ ] Fix, test, create PR
-- [ ] Get review, merge
-
-**Option 3: Feature**
-
-- [ ] Read existing spec
-- [ ] Implement one small task
-- [ ] Submit PR
+- [ ] Read an existing spec in `specs/`.
+- [ ] Draft a small section of the guidance based on the spec.
+- [ ] Submit a PR for feedback.
 
 ### 5:00 PM - Wrap-Up
 
@@ -150,44 +144,43 @@ Pick one small task:
 
 ### Monday
 
-- [ ] Environment setup complete
+- [ ] GitHub repository cloned and accessible
 - [ ] First PR merged (any kind)
 - [ ] Met entire team
 
 ### Tuesday-Wednesday
 
-- [ ] Understanding SDD approach
-- [ ] Made 2-3 commits
-- [ ] Participated in code review
+- [ ] Understanding the specification-driven content approach
+- [ ] Made 2-3 small contributions (commits)
+- [ ] Participated in a guidance review
 - [ ] Attended team standup
 
 ### Thursday
 
-- [ ] Started on small feature or bug
+- [ ] Started on a small guidance draft or improvement
 - [ ] Asking questions (good sign!)
 - [ ] Comfortable with git workflow
 
 ### Friday
 
-- [ ] First real PR ready for review
-- [ ] Attended sprint planning
-- [ ] Paired with someone
+- [ ] First content PR ready for review
+- [ ] Attended content planning
+- [ ] Paired with someone on writing/editing
 - [ ] First week retrospective
 
 ## Week 1-2 Checklist
 
 ### Technical
 
-- [ ] Environment running locally
-- [ ] Can run tests and linting
+- [ ] Comfortable with local markdown editor
 - [ ] First PR merged
-- [ ] Understanding codebase structure
+- [ ] Understanding repository structure
 - [ ] Knows where to find documentation
 
 ### Process
 
 - [ ] Understands git workflow
-- [ ] Knows code review process
+- [ ] Knows guidance review process
 - [ ] Attended standup
 - [ ] Knows who to ask for help
 - [ ] Knows team meeting schedule
@@ -203,65 +196,63 @@ Pick one small task:
 ### Knowledge
 
 - [ ] Read README and Contributing guide
-- [ ] Understands SDD approach
+- [ ] Understands specification-driven content approach
 - [ ] Knows current project focus
-- [ ] Familiar with tech stack
-- [ ] Knows compliance/security requirements
+- [ ] Familiar with the personas in `docs/personas/`
+- [ ] Knows content governance standards
 
 ## Month 1 Goals
 
 ### Productivity
 
-- [ ] Shipped at least 1 feature or 5+ bugs
-- [ ] Code review quality improving
-- [ ] Can implement spec from scratch
-- [ ] Debugging issues independently
+- [ ] Published at least 1 new piece of guidance or made 5+ significant improvements
+- [ ] Guidance review quality is high (providing actionable feedback)
+- [ ] Can create a new guidance document from a spec
+- [ ] Can identify and fix issues in existing content independently
 
 ### Knowledge
 
-- [ ] Understand full architecture
-- [ ] Know all major systems
-- [ ] Can explain deployment process
-- [ ] Knows incident response
-- [ ] Familiar with ops tools
+- [ ] Understands the full scope of the guidance collection
+- [ ] Can explain the purpose and use of each persona
+- [ ] Knows the process for proposing and publishing new content
 
 ### Integration
 
 - [ ] Active in team meetings
 - [ ] Asked thoughtful questions
-- [ ] Participated in design discussions
+- [ ] Participated in content strategy discussions
 - [ ] Comfortable asking for help
-- [ ] Pair programmed with team
+- [ ] Paired with team members on writing/editing
 
 ## Month 3 Goals
 
 ### Independence
 
-- [ ] Can estimate tasks accurately
-- [ ] Writes clear commits and PRs
-- [ ] Reviews code effectively
+- [ ] Can estimate effort for new content accurately
+- [ ] Writes clear commits and PRs for content changes
+- [ ] Reviews guidance effectively and mentors others on reviews
 - [ ] Mentors others
 - [ ] Identifies improvements
 
 ### Expertise
 
 - [ ] Deep knowledge of one area
-- [ ] Can explain design decisions
+- [ ] Can explain content and persona strategy decisions
 - [ ] Suggests optimizations
-- [ ] Leads spec review
-- [ ] Owns component/service
+- [ ] Leads review for new specs
+- [ ] Owns a section of the guidance collection
 
 ## Onboarding Activities
 
-### Pair Programming Sessions
+### Paired Writing Sessions
 
 **Week 1:** Observe and ask questions
 
 ```text
 Pair with: @bob
 Duration: 2 hours
-Task: Implement small feature together
-Buddy drives, new person navigates
+Task: Draft a small piece of guidance together
+Buddy writes, new person contributes ideas and edits
 ```
 
 **Week 2:** Co-implement feature
