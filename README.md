@@ -51,6 +51,7 @@ This repository is designed to be AI-friendly:
   - `prompts/skills/remote-delivery-coach.md`: System prompt for virtual presentation setup.
   - `prompts/skills/stage-choreographer.md`: System prompt for planning stage movement and anchoring.
   - `prompts/skills/vocal-variety-coach.md`: System prompt for annotating scripts for vocal delivery.
+  - `prompts/skills/feedback-facilitator.md`: System prompt for generating questions for a dry run.
 - Specific agent entrypoints exist for tools like Cursor, Gemini, and GitHub Copilot.
 
 ## Contributing
@@ -67,4 +68,3 @@ We welcome contributions to improve speaking guidance!
 ---
 
 **Status:** Active guidance collection.
-**Last Updated:** January 2026

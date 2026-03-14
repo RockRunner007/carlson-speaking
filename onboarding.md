@@ -285,7 +285,6 @@ New person drives, mentor helps
 **Monthly:**
 
 - [ ] Retrospective (1 hour)
-- [ ] Engineering all-hands (1 hour)
 - [ ] 1-on-1 with manager
 
 ### Learning Resources
@@ -312,7 +311,7 @@ Provide links to:
 **First day:**
 
 - [ ] Be available for questions
-- [ ] Help with environment setup
+- [ ] Help with Git and markdown editor setup
 - [ ] Introduce to team
 - [ ] Explain workflows
 - [ ] Eat lunch together

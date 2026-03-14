@@ -116,11 +116,11 @@ Check that PR description includes:
 
 - Acknowledgment of good solutions
 - Explanation of why approach is good
-- Appreciation for testing
+- Appreciation for clear examples
 - Recognition of effort
 
 **Example:**
-> Great solution using memoization! This is much cleaner than the previous approach and improves performance by 40%. Thanks for adding comprehensive tests - the coverage is excellent.
+> This is a fantastic way to explain a complex topic. The analogy you used for encryption is clear and relatable for a non-technical audience. The structure is also much improved. Well done!
 
 ## Review Metrics
 
@@ -128,10 +128,9 @@ Track per month:
 
 | Metric | Target | Action |
 |--------|--------|--------|
-| Review time | < 24h | Prioritize |
-| Approval rate | 90%+ | Ensure quality |
-| Revision rate | < 30% | Improve reviews |
-| Rework cycles | < 2 | Clear feedback |
+| Time to First Review | < 24h | Prioritize reviews in the queue |
+| Content Approval Rate | > 90% | Ensure guidance is high-quality before merge |
+| Revision Rounds | < 2 | Provide clear, actionable feedback to reduce churn |
 
 ## References
 

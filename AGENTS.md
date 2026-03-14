@@ -37,6 +37,7 @@ This repository uses AGENTS.md as the canonical agent guide according to https:/
 - `prompts/skills/remote-delivery-coach.md`: Provides a pre-flight checklist for virtual presentations.
 - `prompts/skills/stage-choreographer.md`: Provides stage directions for in-person presentations.
 - `prompts/skills/vocal-variety-coach.md`: Annotates scripts with cues for pace, pitch, and volume.
+- `prompts/skills/feedback-facilitator.md`: Generates targeted questions for a practice audience.
 - Agents should check this directory for specialized capabilities (e.g., coaching, reviewing).
 - When adopting a skill, adhere strictly to the rules defined in that skill file.
 
