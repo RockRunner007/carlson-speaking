@@ -41,9 +41,9 @@ A clear structure makes your message memorable. Every presentation, no matter ho
 
 Go beyond a simple structure and create a compelling narrative. A powerful technique is contrasting "What Is" with "What Could Be."
 
-- **What Is:** Start by describing the current state—the problem, the pain point, the challenge. This grounds the audience in a shared reality and creates tension.
-- **What Could Be:** Paint a picture of the ideal future—the solution, the benefit, the opportunity. This creates desire and a vision for the audience to buy into.
-- **The Bridge:** Your proposal, project, or idea is the bridge that closes the gap between the unsatisfactory present and the desirable future.
+- **What Is:** Start by describing the current state—the problem, the pain point, the challenge. This grounds the audience in a shared reality and creates tension. Make this tangible with a story about a bad experience (real or illustrative) where security was an afterthought.
+- **What Could Be:** Paint a picture of the ideal future—the solution, the benefit, the opportunity. This creates desire and a vision for the audience to buy into. Contrast the negative story with a positive one of how your proposal leads to a better, more secure outcome.
+- **The Bridge:** Your proposal, project, or idea is the bridge that closes the gap between the unsatisfactory present and the desirable future. People remember stories far more than data points, so this narrative makes your message memorable.
 
 ### 6. Data Storytelling (The "So What?")
 
