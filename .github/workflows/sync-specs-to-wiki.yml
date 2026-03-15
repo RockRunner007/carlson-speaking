@@ -12,6 +12,8 @@ on:
 jobs:
   sync-to-wiki:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push to the wiki
     steps:
       - uses: actions/checkout@v6
 
@@ -99,7 +101,7 @@ jobs:
             echo "No changes to wiki"
           else
             git commit -m "Sync specs from main branch"
-            git push origin master
+            git push origin main
             echo "✅ Wiki updated successfully"
           fi
 
