@@ -20,7 +20,7 @@ jobs:
       - name: Clone Wiki Repository
         id: clone
         run: |
-          if git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki; then
+          if git clone https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki; then
             echo "Wiki cloned successfully."
             echo "EXISTS=true" >> $GITHUB_OUTPUT
           else
@@ -88,6 +88,7 @@ jobs:
           cat wiki/Home.md
 
       - name: Commit and Push to Wiki
+        id: push
         if: steps.clone.outputs.EXISTS == 'true'
         run: |
           cd wiki
@@ -99,20 +100,28 @@ jobs:
           
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to wiki"
+            echo "CHANGED=false" >> $GITHUB_OUTPUT
           else
             git commit -m "Sync specs from main branch"
-            git push origin main
+            git push origin HEAD
             echo "✅ Wiki updated successfully"
+            echo "CHANGED=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Report Sync Results
-        if: steps.clone.outputs.EXISTS == 'true'
+        if: steps.clone.outputs.EXISTS == 'true' && steps.push.outputs.CHANGED == 'true'
         run: |
           echo "## Specs Synced to Wiki" >> $GITHUB_STEP_SUMMARY
           echo "The following changes were pushed to the wiki:" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           (cd wiki && git log -1 --name-status) >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Report No Changes
+        if: steps.clone.outputs.EXISTS == 'true' && steps.push.outputs.CHANGED == 'false'
+        run: |
+          echo "## Specs Synced (No Changes)" >> $GITHUB_STEP_SUMMARY
+          echo "Wiki content matches the repository specs." >> $GITHUB_STEP_SUMMARY
 
       - name: Report Skipped Sync
         if: steps.clone.outputs.EXISTS == 'false'
