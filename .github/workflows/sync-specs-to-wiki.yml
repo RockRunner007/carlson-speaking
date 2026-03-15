@@ -16,11 +16,18 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Clone Wiki Repository
+        id: clone
         run: |
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
-          ls -la wiki/
+          if git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki; then
+            echo "Wiki cloned successfully."
+            echo "EXISTS=true" >> $GITHUB_OUTPUT
+          else
+            echo "Wiki repository not found. Skipping sync."
+            echo "EXISTS=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Copy Specs to Wiki
+        if: steps.clone.outputs.EXISTS == 'true'
         run: |
           # Copy all spec markdown files to wiki
           mkdir -p wiki/specs
@@ -51,6 +58,7 @@ jobs:
           cp -r docs/spec-integration/*.md wiki/Integration/ 2>/dev/null || mkdir -p wiki/Integration && cp docs/spec-integration/*.md wiki/Integration/ 2>/dev/null || true
 
       - name: Create Wiki Index
+        if: steps.clone.outputs.EXISTS == 'true'
         run: |
           cat > wiki/Home.md << 'EOF'
           # Specifications Wiki
@@ -78,6 +86,7 @@ jobs:
           cat wiki/Home.md
 
       - name: Commit and Push to Wiki
+        if: steps.clone.outputs.EXISTS == 'true'
         run: |
           cd wiki
           
