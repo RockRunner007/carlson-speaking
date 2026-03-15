@@ -103,10 +103,17 @@ jobs:
             echo "✅ Wiki updated successfully"
           fi
 
-      - name: Report Results
+      - name: Report Sync Results
+        if: steps.clone.outputs.EXISTS == 'true'
         run: |
-          echo "## Specs Synced to Wiki ✅"
-          echo ""
-          echo "Updated files:"
-          cd wiki
-          git log -1 --name-status --format=%s
+          echo "## Specs Synced to Wiki" >> $GITHUB_STEP_SUMMARY
+          echo "The following changes were pushed to the wiki:" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          (cd wiki && git log -1 --name-status) >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Report Skipped Sync
+        if: steps.clone.outputs.EXISTS == 'false'
+        run: |
+          echo "## Specs Sync Skipped" >> $GITHUB_STEP_SUMMARY
+          echo "The wiki repository was not found. Please initialize it to enable sync." >> $GITHUB_STEP_SUMMARY
