@@ -49,6 +49,7 @@ This repository is designed to be AI-friendly:
   - `prompts/skills/accessibility-checker.md`: System prompt for inclusive design checks.
   - `prompts/skills/elevator-pitch-crafter.md`: System prompt for crafting a 30-second summary.
   - `prompts/skills/narrative-arc-builder.md`: System prompt for structuring a presentation as a story.
+  - `prompts/skills/narrative-storytelling.md`: System prompt for structuring a presentation using contrasting stories.
   - `prompts/skills/post-presentation-follow-up.md`: System prompt for drafting follow-up emails.
   - `prompts/skills/contingency-planner.md`: System prompt for planning for technology failures.
   - `prompts/skills/speaking-anxiety-coach.md`: System prompt for managing presentation nerves.
