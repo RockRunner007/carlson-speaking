@@ -38,7 +38,7 @@ jobs:
           head -50 "$TASKS_FILE"
 
       - name: Create Issue for Each Task
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
